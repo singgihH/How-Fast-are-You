@@ -26,7 +26,7 @@ function countdown()
 
 function dynamicCircle()
 {
-  var dylarge =  Math.floor(Math.random() * 1000);
+  var dylarge =  Math.floor(Math.random() * 100) + 50;
   $('.element').width(dylarge);
   $('.element').height(dylarge);
 }
